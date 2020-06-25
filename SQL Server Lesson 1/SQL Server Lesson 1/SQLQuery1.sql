@@ -1,5 +1,5 @@
-create table NhanVo
-(name varchar(100),
+create table People
+(
+name varchar(100),
 age int
-
 );
