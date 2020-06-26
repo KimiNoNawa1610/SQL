@@ -1,0 +1,1 @@
+select* from cats where id=age;
