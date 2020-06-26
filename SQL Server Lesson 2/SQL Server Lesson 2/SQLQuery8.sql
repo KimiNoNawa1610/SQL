@@ -1,0 +1,1 @@
+select id as cat_id, name from cats;
