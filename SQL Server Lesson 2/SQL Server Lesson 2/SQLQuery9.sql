@@ -1,0 +1,1 @@
+select name as 'cat_name', breed as 'origin' from cats;
