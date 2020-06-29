@@ -1,0 +1,1 @@
+select CONCAT_WS('-',title,author_fname,author_lname) as full_title from books;
