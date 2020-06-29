@@ -1,1 +1,1 @@
-select SUBSTRING('hello world', 1,4);
+select substring(title,1,10)'short title' from books;
