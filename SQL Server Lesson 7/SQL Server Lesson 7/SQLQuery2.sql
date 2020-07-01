@@ -1,0 +1,1 @@
+select title, count(title) as cnt from books group by title;
