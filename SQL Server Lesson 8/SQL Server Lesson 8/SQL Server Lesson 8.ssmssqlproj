@@ -37,6 +37,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery11.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery12.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery12.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
