@@ -1,1 +1,2 @@
-
+--date is value of month, day, year without the time.
+--datetime is value of date with time
