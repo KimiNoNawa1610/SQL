@@ -8,3 +8,6 @@ select title from books where stock_quantity>=100;
 select title from books where stock_quantity<=50;
 select title from books where author_fname='Dave' and released_year>2010;
 select title from books where author_fname='dave' or author_fname like'%w%';
+select title from books where released_year between 2000 and 2004;
+select title from books where released_year not between 2000 and 2010;
+select name from children where birthdate between '1980-01-01' and '2010-01-01';
