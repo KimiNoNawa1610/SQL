@@ -15,3 +15,4 @@ select title from books where author_lname in ('carver','lahiri','smith');
 select title from books where released_year not in(2000,2002,2004,2006,2008,2010,2012,2014,2016);
 select title from books where released_year %2 !=0;
 select title, released_year, case when released_year>=2000 then 'modern literature' else '20th century literature' end as Genre from books;
+select title, stock_quantity, case when stock_quantity <50 then'*' when stock_quantity >100 then '***' else '**' end as stock_index from books;
