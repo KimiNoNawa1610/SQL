@@ -6,3 +6,5 @@ select title from books where author_fname not like '%w%';
 select title from books where released_year>2000;
 select title from books where stock_quantity>=100;
 select title from books where stock_quantity<=50;
+select title from books where author_fname='Dave' and released_year>2010;
+select title from books where author_fname='dave' or author_fname like'%w%';
