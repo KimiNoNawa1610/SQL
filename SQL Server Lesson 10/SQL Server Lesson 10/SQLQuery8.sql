@@ -1,0 +1,1 @@
+select first_name, last_name,avg(grade), case when avg(grade)<80 then 'Failing' else'Passing' end as status from students left join papers on students.id=papers.student_id group by first_name, last_name order by avg(grade) desc;
