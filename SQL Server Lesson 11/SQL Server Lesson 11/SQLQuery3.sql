@@ -7,4 +7,6 @@ select first_name, last_name, count(rating) as count, min(rating) as Min_rate, m
 	case when avg(rating)>0 then'Active' else 'Inactive' end as Status 
 	from reviewers left join reviews on reviewers.id=reviews.reviewer_id
 	group by first_name, last_name order by avg(rating) desc; 
-
+select title, rating, concat(first_name,' ',last_name) as reviewer 
+	from reviewers inner join reviews on reviewers.id=reviews.reviewer_id
+	inner join series on series.id=reviews.series_id order by rating;
