@@ -19,6 +19,48 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Comments_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Comments_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Follow_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Follow_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Like_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Like_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Photo_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Photo_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tag_Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tag_Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Testing.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Testing.sql</FullPath>
+        </FileNode>
         <FileNode Name="Users_Data.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GJF47B7:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-GJF47B7</AssociatedConnSrvName>
