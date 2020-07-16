@@ -1,3 +1,4 @@
+create database Instaclone;
 use Instaclone;
 CREATE TABLE users (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
