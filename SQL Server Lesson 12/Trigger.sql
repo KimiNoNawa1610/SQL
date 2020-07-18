@@ -12,9 +12,10 @@ create trigger must_be_adult
     begin
 		if new.age<18
         then
-			signal sqlstate '45000'
+			signal sqlstate '45000'-- come up error
 				set message_text="Must be an adult";
-                end if;
-                end;
-                $$
+		end if;
+	end;
+$$
 
+insert into users(username, age) values('Vâng',13);-- will cause error
