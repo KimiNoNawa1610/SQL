@@ -56,4 +56,7 @@ $$
 select * from unfollows;
 
 delete from follows where follower_id=2;
-    
+
+show triggers;-- list the triggers
+
+/* Warning: Trigger can make debugging harder*/
