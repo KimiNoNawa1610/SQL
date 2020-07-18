@@ -52,4 +52,8 @@ create trigger capture_unfollow
         followee_id=old.followee_id;
 	end;
 $$
+
+select * from unfollows;
+
+delete from follows where follower_id=2;
     
