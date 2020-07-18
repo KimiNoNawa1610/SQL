@@ -5,7 +5,7 @@ create table users(
     age int
 );
 insert into users(username, age) values('tèo',13);
-
+/*Example 1*/
 DELIMITER $$
 create trigger must_be_adult
 	before insert on users for each row
@@ -18,4 +18,7 @@ create trigger must_be_adult
 	end;
 $$
 
-insert into users(username, age) values('Vâng',13);-- will cause error
+/*insert into users(username, age) values('Vâng',13);-- will cause error*/
+/*Example 2*/
+use Instaclone;
+
